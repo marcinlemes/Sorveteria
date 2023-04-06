@@ -1,0 +1,52 @@
+/* Topo */
+
+header{
+    width:100%;
+    background-color:#f9db79;
+    position:fixed;
+    z-index: 1;
+    top:0;
+    
+}
+
+.topo{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.topo img{
+    width:auto;
+    height:90px;
+}
+
+.topo nav{
+    display:flex;
+    gap:40px;
+}
+
+.topo nav a{
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+    font-size:18px;
+}
+
+.topo nav a:hover{
+    color:#dab22e;
+    transition:0.2s;
+}
+
+/* Responsivo */
+
+@media (max-width:436px){
+    .topo{
+        flex-direction: column;
+        gap:10px;
+    }
+
+    .topo nav{
+        border-top: 1px solid gray;
+        padding:15px 0;
+    }
+}

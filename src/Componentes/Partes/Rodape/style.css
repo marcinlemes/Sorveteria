@@ -1,0 +1,50 @@
+/* Rodapé */
+
+footer{
+    width:100%;
+    background-color: #000;
+    color:#fff;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.informacoes{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:110px 0;
+}
+
+.informacoes img{
+    width:120px;
+}
+
+.infos{
+    width:200px;
+}
+
+.infos h4{
+    font-size: 22px;
+}
+
+.dev{
+    padding:20px;
+    text-align: center;
+}
+
+/* Responsivo */
+
+@media (max-width:768px){
+    .informacoes{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap:30px;
+    }
+
+    .infos{
+        text-align: center;
+    }
+}

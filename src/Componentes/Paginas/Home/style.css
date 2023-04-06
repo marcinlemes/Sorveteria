@@ -1,0 +1,83 @@
+.banner{
+    height: 90vh;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/public/assets/banner-home.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(249, 219, 121);
+  }
+  
+  .titulo h1{
+      font-size:72px;
+      color:#fff;
+      text-shadow: 3px 5px 2px #474747;
+  }
+  
+  /* fim do banner */
+  
+  /* Seções conteúdo */
+  
+  .sabores-container, .container-eventos, .container-sobre{
+      width:100%;
+      display:flex;
+      justify-content: space-between;
+  }
+  
+  .sabores-container img, .container-eventos img, .container-sobre img{
+      width: 50%;
+      object-fit: cover;
+      
+  }
+  
+  .descricao{
+      display:flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+      width:50%;
+      padding: 50px 0
+  }
+  
+  .descricao h2{
+      font-size:34px;
+      font-weight:bold;
+  }
+  
+  .descricao .texto-negrito{
+      font-weight:bold;
+      font-size:18px;
+      margin-bottom: 35px;
+  }
+  
+  .descricao p:last-of-type{
+      max-width: 70%;
+      text-align: justify;
+      font-size:18px;
+  }
+
+  /* Responsivo */
+
+  @media (max-width:768px){
+    .sabores-container, .container-eventos, .container-sobre{
+        flex-wrap: wrap;
+    }
+    .sabores-container img, .container-eventos img, .container-sobre img, .sabores-container .descricao, .container-eventos .descricao, .container-sobre .descricao{
+        width:100%;
+    }
+
+    .container-eventos{
+        flex-direction: column-reverse;
+    }
+
+    .descricao{
+        padding: 60px 0;
+    }
+
+    .descricao p:last-of-type{
+        text-align: center;
+    }
+  }
