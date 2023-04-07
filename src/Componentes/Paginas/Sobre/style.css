@@ -65,3 +65,13 @@
     }
 
 }
+
+@media (max-width:310px){
+    .titulo h1{
+        font-size: 40px;
+    }
+
+    .descricao h2{
+        font-size:28px;
+    }
+}
