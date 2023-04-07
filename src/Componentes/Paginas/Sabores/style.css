@@ -11,8 +11,10 @@
     margin-bottom: 80px;
   }
 
+  
 
 /* Seção sabores */
+
 
 .titulo-sabores{
     text-align: center;
@@ -67,5 +69,13 @@
 
     .box-sabores-container article img{
         width:70%
+    }
+
+    .titulo{
+        padding-left:15px;
+    }
+
+    .titulo h1{
+        font-size: 55px;
     }
 }

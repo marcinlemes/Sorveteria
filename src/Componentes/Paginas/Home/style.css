@@ -11,6 +11,8 @@
     background-color: rgb(249, 219, 121);
   }
   
+
+
   .titulo h1{
       font-size:72px;
       color:#fff;
@@ -79,5 +81,13 @@
 
     .descricao p:last-of-type{
         text-align: center;
+    }
+
+    .titulo{
+        padding-left:15px;
+    }
+
+    .titulo h1{
+        font-size: 55px;
     }
   }

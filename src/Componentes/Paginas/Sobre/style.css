@@ -11,6 +11,7 @@
     margin-bottom: 80px;
 }
 
+
 .texto{
     text-align: center;
 }
@@ -54,5 +55,13 @@
     }
 
     .texto{ padding:0 20px;}
+
+    .titulo{
+        padding-left:15px;
+    }
+
+    .titulo h1{
+        font-size: 55px;
+    }
 
 }
